@@ -1,0 +1,12 @@
+Tanger|59.3|6.5
+Tetouan|62.6|8.5
+Larache|56.9|12.8
+Chefchaouen|63.3|13.0
+Al Hoceima|73.1|12.1
+Ouazzane|61.1|17.0
+Kenitra|53.8|22.9
+Rabat|51.9|25.6
+Temara|51.4|26.5
+Sidi Slimane|58.5|22.9
+Sidi Kacem|60.1|23.4
+Khemisset|57.5|27.7

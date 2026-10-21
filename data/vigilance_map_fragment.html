@@ -1,0 +1,53 @@
+        <div class="vigilance__board" id="vigilance-map">
+          <svg viewBox="0 0 420 560" role="img" aria-label="Carte du Maroc — provinces DRMNO">
+            <defs>
+              <linearGradient id="ocean" x1="0" y1="0" x2="0.8" y2="1">
+                <stop offset="0%" stop-color="#9ec9dc" />
+                <stop offset="55%" stop-color="#7eb4cd" />
+                <stop offset="100%" stop-color="#5a96b4" />
+              </linearGradient>
+              <linearGradient id="land" x1="0.2" y1="0" x2="0.9" y2="1">
+                <stop offset="0%" stop-color="#eef6e8" />
+                <stop offset="40%" stop-color="#d8e8c8" />
+                <stop offset="100%" stop-color="#c5d6a6" />
+              </linearGradient>
+              <linearGradient id="drmnoFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#0c6b84" stop-opacity="0.38" />
+                <stop offset="100%" stop-color="#0c6b84" stop-opacity="0.05" />
+              </linearGradient>
+              <filter id="softShadow" x="-12%" y="-8%" width="130%" height="130%">
+                <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#12304a" flood-opacity="0.2" />
+              </filter>
+              <clipPath id="moroccoClip">
+                <path d="M304.7,16.2 L319.4,31.8 L342.6,29.3 L367.9,37.4 L378.5,37.8 L387.7,61.4 L389.1,83.8 L397.6,122.6 L404.0,130.5 L399.5,144.8 L367.6,151.0 L356.5,164.6 L342.4,167.8 L341.4,195.1 L312.8,209.6 L303.5,228.1 L283.5,238.0 L259.1,243.6 L219.7,270.8 L219.9,314.4 L216.2,314.4 L216.2,314.4 L216.8,334.1 L201.7,335.3 L193.8,343.7 L182.7,343.7 L173.9,338.9 L153.4,342.9 L145.4,371.5 L137.8,374.2 L126.3,420.7 L92.4,460.4 L84.3,511.2 L74.3,527.8 L71.4,541.1 L16.4,544.0 L16.0,543.9 L17.2,526.9 L26.5,516.8 L34.5,497.7 L32.9,485.2 L41.3,459.2 L54.9,435.8 L63.1,429.9 L69.6,408.4 L70.2,388.8 L79.0,366.0 L95.2,352.6 L110.7,315.0 L111.2,314.5 L123.4,300.3 L146.1,296.3 L165.4,271.1 L177.6,261.3 L198.0,230.5 L191.9,184.7 L201.2,153.0 L204.4,133.7 L220.1,108.8 L244.6,92.0 L262.7,76.7 L279.0,38.6 L286.7,16.0 L304.7,16.2 Z" />
+              </clipPath>
+            </defs>
+
+            <rect class="map-ocean" width="420" height="560" />
+
+            <path class="map-neighbor" d="M270,2 C290,-1 312,5 328,14 L318,28 C300,18 282,12 270,16 Z" />
+
+            <path class="map-land" filter="url(#softShadow)" d="M304.7,16.2 L319.4,31.8 L342.6,29.3 L367.9,37.4 L378.5,37.8 L387.7,61.4 L389.1,83.8 L397.6,122.6 L404.0,130.5 L399.5,144.8 L367.6,151.0 L356.5,164.6 L342.4,167.8 L341.4,195.1 L312.8,209.6 L303.5,228.1 L283.5,238.0 L259.1,243.6 L219.7,270.8 L219.9,314.4 L216.2,314.4 L216.2,314.4 L216.8,334.1 L201.7,335.3 L193.8,343.7 L182.7,343.7 L173.9,338.9 L153.4,342.9 L145.4,371.5 L137.8,374.2 L126.3,420.7 L92.4,460.4 L84.3,511.2 L74.3,527.8 L71.4,541.1 L16.4,544.0 L16.0,543.9 L17.2,526.9 L26.5,516.8 L34.5,497.7 L32.9,485.2 L41.3,459.2 L54.9,435.8 L63.1,429.9 L69.6,408.4 L70.2,388.8 L79.0,366.0 L95.2,352.6 L110.7,315.0 L111.2,314.5 L123.4,300.3 L146.1,296.3 L165.4,271.1 L177.6,261.3 L198.0,230.5 L191.9,184.7 L201.2,153.0 L204.4,133.7 L220.1,108.8 L244.6,92.0 L262.7,76.7 L279.0,38.6 L286.7,16.0 L304.7,16.2 Z" />
+
+            <ellipse class="map-drmno" clip-path="url(#moroccoClip)" cx="300" cy="55" rx="95" ry="55" />
+
+            <text class="map-zone-label" x="300" y="78">DRMNO</text>
+            <text class="map-country-label" x="250" y="230">MAROC</text>
+            <text class="map-sahara-label" x="70" y="480">Sahara</text>
+          </svg>
+
+          <div class="map-pins">
+            <button type="button" class="map-pin" style="left:68.8%;top:2.9%" data-place="Tanger">Tanger</button>
+            <button type="button" class="map-pin" style="left:71.5%;top:4.0%" data-place="Tetouan">Tétouan</button>
+            <button type="button" class="map-pin" style="left:67.0%;top:6.6%" data-place="Larache">Larache</button>
+            <button type="button" class="map-pin" style="left:72.1%;top:6.7%" data-place="Chefchaouen">Chefchaouen</button>
+            <button type="button" class="map-pin" style="left:79.9%;top:6.2%" data-place="Al Hoceima">Al Hoceima</button>
+            <button type="button" class="map-pin" style="left:70.3%;top:9.2%" data-place="Ouazzane">Ouazzane</button>
+            <button type="button" class="map-pin" style="left:64.5%;top:12.7%" data-place="Kenitra">Kénitra</button>
+            <button type="button" class="map-pin map-pin--hub" style="left:63.0%;top:14.3%" data-place="Rabat">Rabat</button>
+            <button type="button" class="map-pin" style="left:62.6%;top:14.9%" data-place="Temara">Témara</button>
+            <button type="button" class="map-pin" style="left:68.3%;top:12.7%" data-place="Sidi Slimane">S. Slimane</button>
+            <button type="button" class="map-pin" style="left:69.5%;top:13.0%" data-place="Sidi Kacem">S. Kacem</button>
+            <button type="button" class="map-pin" style="left:67.4%;top:15.6%" data-place="Khemisset">Khémisset</button>
+          </div>
+        </div>
