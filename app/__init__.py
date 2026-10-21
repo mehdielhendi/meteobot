@@ -1,0 +1,1 @@
+"""Chatbot météorologique — application package."""
