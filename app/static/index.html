@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MétéoBot — DRMNO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__wash"></div>
+      <div class="atmosphere__veil"></div>
+      <div class="atmosphere__grain"></div>
+    </div>
+
+    <div class="app">
+      <div class="ticker" aria-label="Bandeau observations">
+        <span class="ticker__badge">OBS LIVE</span>
+        <div class="ticker__track" id="ticker-track">
+          <div class="ticker__inner" id="ticker-inner">Chargement du réseau…</div>
+        </div>
+      </div>
+
+      <header class="hero">
+        <div class="hero__top">
+          <p class="hero__brand">MétéoBot</p>
+          <div class="hero__status" aria-live="polite">
+            <span class="status-dot" id="status-dot"></span>
+            <span id="status-text">Connexion…</span>
+            <span class="status-sep" aria-hidden="true">·</span>
+            <span id="clock"></span>
+          </div>
+        </div>
+        <p class="hero__line">
+          Console opérationnelle DRMNO — observations, vigilance BMS et prévisions SPECIAL.
+        </p>
+      </header>
+
+      <section class="ops" aria-label="Indicateurs opérationnels">
+        <article class="ops-card">
+          <p class="ops-card__label">Température moyenne</p>
+          <p class="ops-card__value" id="metric-temp">—</p>
+          <p class="ops-card__meta" id="metric-temp-meta">Réseau OBS</p>
+        </article>
+        <article class="ops-card">
+          <p class="ops-card__label">Alertes actives DRMNO</p>
+          <p class="ops-card__value" id="metric-alerts">—</p>
+          <p class="ops-card__meta" id="metric-alerts-meta">Bulletin BMS</p>
+        </article>
+        <article class="ops-card">
+          <p class="ops-card__label">Niveau max</p>
+          <p class="ops-card__value">
+            <span class="vig-badge vig-badge--lg" id="metric-level">VERT</span>
+          </p>
+          <p class="ops-card__meta" id="metric-level-meta">Vigilance régionale</p>
+        </article>
+        <article class="ops-card">
+          <p class="ops-card__label">Phénomène</p>
+          <p class="ops-card__value ops-card__value--text" id="metric-phenom">—</p>
+          <p class="ops-card__meta" id="metric-phenom-meta">BMS en cours</p>
+        </article>
+      </section>
+
+      <section class="vigilance" aria-label="Carte de vigilance DRMNO">
+        <div class="vigilance__head">
+          <div>
+            <p class="vigilance__title">Carte de vigilance</p>
+            <p class="vigilance__sub">Nord Maroc — pins colorés selon le BMS courant</p>
+          </div>
+          <div class="vigilance__legend" aria-label="Légende vigilance">
+            <span class="leg leg--vert">Vert</span>
+            <span class="leg leg--jaune">Jaune</span>
+            <span class="leg leg--orange">Orange</span>
+            <span class="leg leg--rouge">Rouge</span>
+          </div>
+        </div>
+        <div class="vigilance__board glass" id="vigilance-map">
+          <svg viewBox="0 0 640 280" role="img" aria-label="Nord du Maroc — provinces DRMNO">
+            <defs>
+              <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1a3a55" />
+                <stop offset="100%" stop-color="#0f2740" />
+              </linearGradient>
+              <linearGradient id="landGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#2f4f46" />
+                <stop offset="45%" stop-color="#3d5c4a" />
+                <stop offset="100%" stop-color="#2a4538" />
+              </linearGradient>
+              <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M32 0H0V32" fill="none" stroke="rgba(160,200,230,0.08)" stroke-width="1" />
+              </pattern>
+              <pattern id="topo" width="48" height="24" patternUnits="userSpaceOnUse">
+                <path
+                  d="M0 12 Q12 4 24 12 T48 12"
+                  fill="none"
+                  stroke="rgba(190,220,200,0.12)"
+                  stroke-width="1"
+                />
+              </pattern>
+            </defs>
+
+            <rect width="640" height="280" fill="url(#seaGrad)" />
+            <rect width="640" height="280" fill="url(#grid)" />
+
+            <path
+              class="map-land"
+              d="M40,120 C90,60 170,40 250,48 C320,55 380,40 450,55 C520,70 580,95 610,140 C600,190 540,230 470,245 C390,260 310,250 240,240 C160,228 90,200 50,160 Z"
+            />
+            <path
+              class="map-land-topo"
+              d="M40,120 C90,60 170,40 250,48 C320,55 380,40 450,55 C520,70 580,95 610,140 C600,190 540,230 470,245 C390,260 310,250 240,240 C160,228 90,200 50,160 Z"
+              fill="url(#topo)"
+            />
+            <path
+              class="map-contour"
+              d="M90,150 C160,110 240,100 320,108 C400,116 470,105 530,130"
+            />
+            <path
+              class="map-contour"
+              d="M110,180 C190,150 280,145 360,155 C430,164 490,155 545,175"
+            />
+            <path
+              class="map-contour"
+              d="M130,205 C210,185 300,182 380,190 C450,198 500,195 555,210"
+            />
+
+            <text class="map-coord" x="24" y="28">35°N</text>
+            <text class="map-coord" x="24" y="260">34°N</text>
+            <text class="map-coord" x="520" y="268">6°W</text>
+            <text class="map-label" x="70" y="90">ATLANTIQUE</text>
+            <text class="map-label" x="430" y="70">MÉDITERRANÉE</text>
+            <text class="map-label map-label--land" x="280" y="160">DRMNO NORD</text>
+          </svg>
+          <div class="map-pins">
+            <button type="button" class="map-pin" style="left:18%;top:28%" data-place="Tanger">Tanger</button>
+            <button type="button" class="map-pin" style="left:28%;top:38%" data-place="Tetouan">Tétouan</button>
+            <button type="button" class="map-pin" style="left:22%;top:48%" data-place="Larache">Larache</button>
+            <button type="button" class="map-pin" style="left:34%;top:52%" data-place="Chefchaouen">Chefchaouen</button>
+            <button type="button" class="map-pin" style="left:48%;top:36%" data-place="Al Hoceima">Al Hoceima</button>
+            <button type="button" class="map-pin" style="left:36%;top:62%" data-place="Ouazzane">Ouazzane</button>
+            <button type="button" class="map-pin" style="left:30%;top:68%" data-place="Kenitra">Kénitra</button>
+            <button type="button" class="map-pin" style="left:38%;top:74%" data-place="Rabat">Rabat</button>
+            <button type="button" class="map-pin" style="left:44%;top:78%" data-place="Temara">Témara</button>
+            <button type="button" class="map-pin" style="left:52%;top:70%" data-place="Khemisset">Khémisset</button>
+            <button type="button" class="map-pin" style="left:46%;top:64%" data-place="Sidi Kacem">Sidi Kacem</button>
+            <button type="button" class="map-pin" style="left:42%;top:58%" data-place="Sidi Slimane">Sidi Slimane</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="desk" aria-label="Conversation météorologique">
+        <div class="desk__rail glass">
+          <p class="rail__label">Sources actives</p>
+          <ul class="rail__list">
+            <li><span>OBS</span> Horaires &amp; quotidiennes</li>
+            <li><span>BMS</span> Niveaux d’alerte</li>
+            <li><span>SPECIAL</span> Prévisions locales</li>
+          </ul>
+          <p class="rail__label">Essais rapides</p>
+          <div class="chips" id="chips">
+            <button type="button" data-q="Où risque-t-il de pleuvoir dans le Nord demain ?">
+              Pluie dans le Nord
+            </button>
+            <button type="button" data-q="Températures extrêmes a kénitra demain">
+              Extrêmes Kenitra
+            </button>
+            <button type="button" data-q="Compare Rabat et Tanger demain">
+              Compare Rabat × Tanger
+            </button>
+            <button type="button" data-q="Alerte à Ouazzane">Alerte Ouazzane</button>
+            <button type="button" data-q="et le vent ?">Et le vent ?</button>
+            <button type="button" data-q="Aide">Aide</button>
+          </div>
+        </div>
+
+        <div class="desk__chat glass">
+          <div id="messages" class="messages" role="log" aria-live="polite"></div>
+
+          <div class="composer-dock">
+            <form id="chat-form" class="composer" autocomplete="off">
+              <div class="composer__shell">
+                <div class="composer__field">
+                  <span class="composer__badge" aria-hidden="true">DRMNO</span>
+                  <label class="sr-only" for="message">Votre question météo</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="1"
+                    maxlength="2000"
+                    placeholder="Demandez une observation, une alerte, une prévision ou une comparaison…"
+                    required
+                  ></textarea>
+                </div>
+                <div class="composer__actions">
+                  <p class="composer__hint"><kbd>Entrée</kbd> envoyer · <kbd>⇧ Entrée</kbd> ligne</p>
+                  <button type="submit" id="send-btn" aria-label="Envoyer">
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                      <path
+                        fill="currentColor"
+                        d="M3.4 20.6 21 12 3.4 3.4 3 10.1 14.2 12 3 13.9z"
+                      />
+                    </svg>
+                    <span>Envoyer</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="foot">
+        Bulletins officiels DRMNO · PFA 2026 · Console vigilance colorée BMS
+      </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
