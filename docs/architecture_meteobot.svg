@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" width="1600" height="980" font-family="Segoe UI, Arial, sans-serif">
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#122033"/></pattern>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>
+<rect width="1600" height="980" fill="#0b1522"/><rect width="1600" height="980" fill="url(#g)"/>
+<text x="800" y="62" font-size="36" fill="#e8eef5" font-weight="700" text-anchor="middle">Architecture de METEOBOT</text>
+<text x="800" y="100" font-size="20" fill="#8aa0b5" text-anchor="middle">Données DRMNO (PDF / JSON)  →  Backend FastAPI  →  Interface conversationnelle</text>
+<text x="60" y="155" font-size="22" fill="#3d9ecb" font-weight="700" text-anchor="start">1. Couche données</text>
+<text x="560" y="155" font-size="22" fill="#7ec8e6" font-weight="700" text-anchor="start">2. Couche traitement (FastAPI)</text>
+<text x="1060" y="155" font-size="22" fill="#9aebc4" font-weight="700" text-anchor="start">3. Couche présentation</text>
+<rect x="60" y="180" width="280" height="142" rx="14" fill="#142536" stroke="#3d9ecb" stroke-width="2"/>
+<text x="76" y="216" font-size="22" fill="#7ec8e6" font-weight="700" text-anchor="start">Bulletins PDF</text>
+<text x="76" y="250" font-size="17" fill="#c9d7e6" text-anchor="start">• OBSMET horaire / quotidien</text>
+<text x="76" y="278" font-size="17" fill="#c9d7e6" text-anchor="start">• SPECIAL 72h (villes)</text>
+<text x="76" y="306" font-size="17" fill="#c9d7e6" text-anchor="start">• BMSGeneral (vigilance)</text>
+<rect x="60" y="350" width="280" height="112" rx="14" fill="#142536" stroke="#3d9ecb" stroke-width="2"/>
+<text x="76" y="386" font-size="22" fill="#7ec8e6" font-weight="700" text-anchor="start">Ingestion</text>
+<text x="76" y="420" font-size="17" fill="#c9d7e6" text-anchor="start">• scripts/ingest_*.py</text>
+<text x="76" y="448" font-size="17" fill="#c9d7e6" text-anchor="start">• PDF → JSON structuré</text>
+<rect x="60" y="490" width="280" height="142" rx="14" fill="#142536" stroke="#3d9ecb" stroke-width="2"/>
+<text x="76" y="526" font-size="22" fill="#7ec8e6" font-weight="700" text-anchor="start">Stores locaux</text>
+<text x="76" y="560" font-size="17" fill="#c9d7e6" text-anchor="start">• hourly.json / daily.json</text>
+<text x="76" y="588" font-size="17" fill="#c9d7e6" text-anchor="start">• special_forecasts.json</text>
+<text x="76" y="616" font-size="17" fill="#c9d7e6" text-anchor="start">• bms_alerts.json</text>
+<line x1="200" y1="322" x2="200" y2="348" stroke="#5a7f9a" stroke-width="4" marker-end="url(#a)"/>
+<line x1="200" y1="462" x2="200" y2="488" stroke="#5a7f9a" stroke-width="4" marker-end="url(#a)"/>
+<rect x="420" y="220" width="480" height="355" rx="14" fill="#132437" stroke="#7ec8e6" stroke-width="3"/>
+<text x="440" y="262" font-size="22" fill="#e8eef5" font-weight="700" text-anchor="start">Backend FastAPI  (app/)</text>
+<rect x="450" y="295" width="200" height="120" rx="10" fill="#1a3048" stroke="#4a7fa0" stroke-width="2"/>
+<text x="462" y="325" font-size="18" fill="#9fd3ef" font-weight="700" text-anchor="start">Intent / routing</text>
+<text x="462" y="351" font-size="15" fill="#c9d7e6" text-anchor="start">• parse_message</text>
+<text x="462" y="373" font-size="15" fill="#c9d7e6" text-anchor="start">• mémoire session</text>
+<text x="462" y="395" font-size="15" fill="#c9d7e6" text-anchor="start">• scénarios région</text>
+<rect x="670" y="295" width="200" height="120" rx="10" fill="#1a3048" stroke="#4a7fa0" stroke-width="2"/>
+<text x="682" y="325" font-size="18" fill="#9fd3ef" font-weight="700" text-anchor="start">Services métier</text>
+<text x="682" y="351" font-size="15" fill="#c9d7e6" text-anchor="start">• obs_store</text>
+<text x="682" y="373" font-size="15" fill="#c9d7e6" text-anchor="start">• special_store</text>
+<text x="682" y="395" font-size="15" fill="#c9d7e6" text-anchor="start">• bms_store</text>
+<rect x="450" y="435" width="200" height="120" rx="10" fill="#1a3048" stroke="#4a7fa0" stroke-width="2"/>
+<text x="462" y="465" font-size="18" fill="#9fd3ef" font-weight="700" text-anchor="start">ChatbotService</text>
+<text x="462" y="491" font-size="15" fill="#c9d7e6" text-anchor="start">• reply()</text>
+<text x="462" y="513" font-size="15" fill="#c9d7e6" text-anchor="start">• comparaisons</text>
+<text x="462" y="535" font-size="15" fill="#c9d7e6" text-anchor="start">• suggestions</text>
+<rect x="670" y="435" width="200" height="120" rx="10" fill="#1a3048" stroke="#4a7fa0" stroke-width="2"/>
+<text x="682" y="465" font-size="18" fill="#9fd3ef" font-weight="700" text-anchor="start">API REST</text>
+<text x="682" y="491" font-size="15" fill="#c9d7e6" text-anchor="start">• POST /api/chat</text>
+<text x="682" y="513" font-size="15" fill="#c9d7e6" text-anchor="start">• GET /api/dashboard</text>
+<text x="682" y="535" font-size="15" fill="#c9d7e6" text-anchor="start">• GET /api/health</text>
+<line x1="340" y1="560" x2="418" y2="560" stroke="#7ec8e6" stroke-width="4" marker-end="url(#a)"/>
+<text x="352" y="548" font-size="14" fill="#8aa0b5" text-anchor="start">JSON</text>
+<rect x="1040" y="220" width="480" height="355" rx="14" fill="#132437" stroke="#9aebc4" stroke-width="3"/>
+<text x="1060" y="262" font-size="22" fill="#e8eef5" font-weight="700" text-anchor="start">Interface web  (app/static/)</text>
+<rect x="1070" y="290" width="420" height="80" rx="10" fill="#1a3048" stroke="#4f8f72" stroke-width="2"/>
+<text x="1084" y="320" font-size="18" fill="#b7f0d0" font-weight="700" text-anchor="start">Console DRMNO</text>
+<text x="1084" y="346" font-size="15" fill="#c9d7e6" text-anchor="start">Ticker OBS · cartes métriques · carte de vigilance</text>
+<rect x="1070" y="385" width="420" height="80" rx="10" fill="#1a3048" stroke="#4f8f72" stroke-width="2"/>
+<text x="1084" y="415" font-size="18" fill="#b7f0d0" font-weight="700" text-anchor="start">Chat conversationnel</text>
+<text x="1084" y="441" font-size="15" fill="#c9d7e6" text-anchor="start">Questions FR · réponses structurées · badges vigilance</text>
+<rect x="1070" y="480" width="420" height="80" rx="10" fill="#1a3048" stroke="#4f8f72" stroke-width="2"/>
+<text x="1084" y="510" font-size="18" fill="#b7f0d0" font-weight="700" text-anchor="start">Interactions</text>
+<text x="1084" y="536" font-size="15" fill="#c9d7e6" text-anchor="start">Pins carte · suggestions · mémoire multi-tours</text>
+<line x1="900" y1="390" x2="1038" y2="390" stroke="#9aebc4" stroke-width="4" marker-end="url(#a)"/>
+<text x="915" y="375" font-size="14" fill="#8aa0b5" text-anchor="start">HTTP JSON</text>
+<rect x="1140" y="620" width="280" height="100" rx="14" fill="#1f6f9a" stroke="#7ec8e6" stroke-width="2"/>
+<text x="1280" y="662" font-size="22" fill="#ffffff" font-weight="700" text-anchor="middle">Utilisateur</text>
+<text x="1280" y="692" font-size="15" fill="#ffffff" text-anchor="middle">Navigateur · http://127.0.0.1:8000</text>
+<line x1="1280" y1="575" x2="1280" y2="618" stroke="#9aebc4" stroke-width="4" marker-end="url(#a)"/>
+<text x="1290" y="592" font-size="14" fill="#8aa0b5" text-anchor="start">question / clic carte</text>
+<rect x="60" y="660" width="940" height="250" rx="14" fill="#101c2c" stroke="#2a4058" stroke-width="2"/>
+<text x="80" y="704" font-size="22" fill="#7ec8e6" font-weight="700" text-anchor="start">Flux d’une requête (résumé)</text>
+<text x="80" y="748" font-size="17" fill="#d5e2ef" text-anchor="start">1. L’utilisateur pose une question (ou clique une province sur la carte).</text>
+<text x="80" y="780" font-size="17" fill="#d5e2ef" text-anchor="start">2. FastAPI reçoit POST /api/chat et analyse l’intention (OBS / SPECIAL / BMS).</text>
+<text x="80" y="812" font-size="17" fill="#d5e2ef" text-anchor="start">3. Les stores locaux (JSON issus des PDF DRMNO) fournissent la donnée exacte.</text>
+<text x="80" y="844" font-size="17" fill="#d5e2ef" text-anchor="start">4. ChatbotService formate une réponse sourcée (paramètre demandé uniquement).</text>
+<text x="80" y="876" font-size="17" fill="#d5e2ef" text-anchor="start">5. L’interface affiche la réponse, les suggestions, et colore la vigilance.</text>
+<text x="800" y="955" font-size="15" fill="#6f8499" text-anchor="middle">Sources : bulletins officiels DRMNO / DGM — aucune donnée inventée</text>
+</svg>
