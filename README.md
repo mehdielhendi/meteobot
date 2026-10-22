@@ -7,7 +7,7 @@ Chaque réponse cite sa source ; quand une donnée manque, le bot le dit au lieu
 Projet de fin d'année (PFA), Direction Régionale de la Météorologie du Nord-Ouest (Rabat),
 juin – juillet 2026. Réalisé par **El Hendi Mohamed Mehdi**.
 
-![Architecture de METEOBOT](docs/figure_3_1_architecture_meteobot.png)
+![Architecture de METEOBOT](docs/architecture_meteobot.svg)
 
 ## Ce que fait le bot
 
@@ -66,5 +66,5 @@ app/        API FastAPI, services (intention, chatbot, stores de données), inte
 data/       fond de carte du Maroc (les bulletins indexés ne sont pas publiés)
 scripts/    ingestion des PDF et génération de figures
 tests/      tests automatisés
-docs/       figure d'architecture
+docs/       schéma d'architecture
 ```
