@@ -11,7 +11,7 @@ juin – juillet 2026. Réalisé par **El Hendi Mohamed Mehdi**.
 
 ## Ce que fait le bot
 
-| Famille de bulletins | Question type | Données indexées |
+| Famille de bulletins | Question type | Données traitées pendant le stage |
 | --- | --- | --- |
 | Observations (OBSMET) | « Quelle était la température à Rabat le 10 juin à 17 h ? » | 24 bulletins horaires, 18 stations |
 | Prévisions spéciales 72 h | « Quelle est la prévision pour Larache demain ? » | 37 prévisions, 13 villes |
@@ -45,8 +45,8 @@ uvicorn app.main:app --reload --port 8000
 
 Ouvrir http://127.0.0.1:8000. L'API principale est `POST /api/chat`.
 
-Pour réindexer à partir de vos propres bulletins PDF, placez-les dans `sources/` puis lancez les
-scripts `scripts/ingest_*.py`.
+Les bulletins officiels de la DRMNO ne sont pas inclus dans ce dépôt. Placez vos bulletins PDF
+dans `sources/`, puis lancez les scripts `scripts/ingest_*.py` pour générer `data/obs/`.
 
 ## Tests
 
@@ -57,12 +57,13 @@ pytest
 
 35 tests couvrent la détection d'intention, les bulletins de vigilance et de prévision,
 les observations quotidiennes, la comparaison entre villes et le filtrage par mesure.
+La plupart s'appuient sur les bulletins indexés dans `data/obs/`, qui ne sont pas publiés ici.
 
 ## Structure
 
 ```
 app/        API FastAPI, services (intention, chatbot, stores de données), interface web
-data/obs/   bulletins indexés en JSON
+data/       fond de carte du Maroc (les bulletins indexés ne sont pas publiés)
 scripts/    ingestion des PDF et génération de figures
 tests/      tests automatisés
 docs/       figure d'architecture

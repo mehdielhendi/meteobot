@@ -34,3 +34,7 @@ htmlcov/
 # Logs
 *.log
 logs/
+
+# Données des bulletins DRMNO (non publiées)
+data/obs/
+sources/
