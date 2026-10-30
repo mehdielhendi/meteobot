@@ -45,8 +45,10 @@ uvicorn app.main:app --reload --port 8000
 
 Ouvrir http://127.0.0.1:8000. L'API principale est `POST /api/chat`.
 
-Les bulletins officiels de la DRMNO ne sont pas inclus dans ce dépôt. Placez vos bulletins PDF
-dans `sources/`, puis lancez les scripts `scripts/ingest_*.py` pour générer `data/obs/`.
+Les données indexées des bulletins (`data/obs/` : observations horaires et quotidiennes, prévisions spéciales, vigilance)
+sont incluses : le bot fonctionne dès l'installation. Elles sont publiées **avec l'autorisation de la Direction
+Régionale de la Météorologie du Nord-Ouest (DGM)**, source des bulletins. Pour indexer de nouveaux bulletins PDF,
+placez-les dans `sources/` puis lancez les scripts `scripts/ingest_*.py`.
 
 ## Tests
 
@@ -57,13 +59,13 @@ pytest
 
 35 tests couvrent la détection d'intention, les bulletins de vigilance et de prévision,
 les observations quotidiennes, la comparaison entre villes et le filtrage par mesure.
-La plupart s'appuient sur les bulletins indexés dans `data/obs/`, qui ne sont pas publiés ici.
+La plupart s'appuient sur les bulletins indexés dans `data/obs/`.
 
 ## Structure
 
 ```
 app/        API FastAPI, services (intention, chatbot, stores de données), interface web
-data/       fond de carte du Maroc (les bulletins indexés ne sont pas publiés)
+data/       bulletins indexés (data/obs/) et fond de carte du Maroc
 scripts/    ingestion des PDF et génération de figures
 tests/      tests automatisés
 docs/       schéma d'architecture
