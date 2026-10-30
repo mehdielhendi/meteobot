@@ -1,0 +1,1728 @@
+{
+  "source_dir": "sources/bulletins",
+  "forecast_count": 37,
+  "city_count": 13,
+  "cities": [
+    "Al Houceima",
+    "Chefchaouen",
+    "Kenitra",
+    "Khemisset",
+    "Larache",
+    "Ouazzane",
+    "Rabat",
+    "Rabat Sale",
+    "Sidi Kacem",
+    "Sidi Slimane",
+    "Tanger",
+    "Temara",
+    "Tetouan"
+  ],
+  "forecasts": [
+    {
+      "city": "Al Houceima",
+      "city_key": "AL-HOUCEIMA",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_AL-HOUCEIMA_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies faibles à modérées sur reliefs",
+          "vent": "W [30 / 50] pouvant atteindre 60",
+          "textremes": "Maxi: 21/23°C",
+          "rain": "20-30 sur reliefs"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies faibles à modérées sur reliefs",
+          "vent": "W [40 / 60] pouvant atteindre 80",
+          "textremes": "Mini: 10/12°C",
+          "rain": "20-30 sur reliefs"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies faibles à modérées sur reliefs",
+          "vent": "W [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 22/24°C",
+          "rain": "20-30 sur reliefs"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies faibles à modérées sur reliefs",
+          "vent": "W [25 / 35] pouvant atteindre 50",
+          "textremes": "Mini: 14/16°C",
+          "rain": "10-15 sur reliefs"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies faibles à modérées sur reliefs",
+          "vent": "W [25 / 35] pouvant atteindre 50",
+          "textremes": "Maxi: 23/25°C",
+          "rain": "10-15 sur reliefs"
+        }
+      ]
+    },
+    {
+      "city": "Chefchaouen",
+      "city_key": "CHEFCHAOUEN",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_CHEFCHAOUEN_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies fortes Averses fortes",
+          "vent": "SW dev W [45 / 65] pouvant atteindre 80",
+          "textremes": "Maxi: 13/15°C",
+          "rain": "40-50"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies modérées à fortes Averses modérées à fortes",
+          "vent": "SW [45 / 65] pouvant atteindre 80",
+          "textremes": "Mini: 11/13°C",
+          "rain": "30-40"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies modérées à fortes Averses modérées à fortes",
+          "vent": "SW [45 / 65] pouvant atteindre 80",
+          "textremes": "Maxi: 15/17°C",
+          "rain": "30-40"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "SW [45 / 65] pouvant atteindre 80",
+          "textremes": "Mini: 12/14°C",
+          "rain": "15-20"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies modérées à fortes Averses modérées à fortes",
+          "vent": "SW [45 / 65] pouvant atteindre 70",
+          "textremes": "Maxi: 15/17°C",
+          "rain": "20-30"
+        }
+      ]
+    },
+    {
+      "city": "Kenitra",
+      "city_key": "KENITRA",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_KENITRA_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 15/17°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Mini: 14/16°C",
+          "rain": "2-5"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [40 / 60]",
+          "textremes": "Mini: 15/17°C",
+          "rain": "Néant"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "<2"
+        }
+      ]
+    },
+    {
+      "city": "Khemisset",
+      "city_key": "KHEMISSET",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_KHEMISSET_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 15/17°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [40 / 60] pouvant atteindre 70",
+          "textremes": "Mini: 10/12°C",
+          "rain": "Néant"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "phenomena": "Pluies faibles",
+          "vent": "W dev SW [40 / 60] pouvant atteindre 70",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "2-5"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [40 / 60]",
+          "textremes": "Mini: 13/15°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [20 / 40] pouvant atteindre 50",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "<2"
+        }
+      ]
+    },
+    {
+      "city": "Larache",
+      "city_key": "LARACHE",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_LARACHE_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "SW dev W [50 / 70] pouvant atteindre 90",
+          "textremes": "Maxi: 15/17°C",
+          "rain": "20-30"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "W dev SW [50 / 70] pouvant atteindre 80",
+          "textremes": "Mini: 13/15°C",
+          "rain": "15-20"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW dev W [50 / 70] pouvant atteindre 80",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [45 / 65] pouvant atteindre 80",
+          "textremes": "Mini: 16/18°C",
+          "rain": "05-10"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [45 / 65] pouvant atteindre 80",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "05-10"
+        }
+      ]
+    },
+    {
+      "city": "Ouazzane",
+      "city_key": "OUAZZANE",
+      "horizon_h": 48,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_OUAZZANE_48h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 06-12H (Matin)",
+          "tmin": "11/13°C",
+          "tmax": "13 / 15°C",
+          "sky": "S.nuageux à couvert",
+          "vent": "S devenant SW [35 / 65]",
+          "phenomena": "Pluies/Averses faibles à modérées"
+        },
+        {
+          "label": "Aujourd'hui | 12-24H (Après-midi)",
+          "sky": "Pass. nuag à S.nuageux",
+          "vent": "SW devenant W [45 / 65] pouvant atteindre 80",
+          "phenomena": "Pluies fortes Averses fortes"
+        },
+        {
+          "label": "Demain | 00-12H (Matin)",
+          "tmin": "11/13°C",
+          "tmax": "15 / 17°C",
+          "sky": "S.nuageux à couvert",
+          "vent": "Secteur SW [45 / 65] pouvant atteindre 80",
+          "phenomena": "Pluies modérées à fortes Averses modérées à fortes"
+        },
+        {
+          "label": "Demain | 12-24H (Après Midi)",
+          "sky": "S.nuageux à couvert",
+          "vent": "Secteur SW [45 / 65] pouvant atteindre 80",
+          "phenomena": "Pluies modérées à fortes Averses modérées à fortes"
+        }
+      ]
+    },
+    {
+      "city": "Rabat",
+      "city_key": "RABAT",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_RABAT_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Mini: 14/16°C",
+          "rain": "2-5"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [40 / 60]",
+          "textremes": "Mini: 15/17°C",
+          "rain": "Néant"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 70",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "<2"
+        }
+      ]
+    },
+    {
+      "city": "Rabat Sale",
+      "city_key": "RABAT_SALE",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_RABAT_SALE_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Mini: 14/16°C",
+          "rain": "2-5"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [40 / 60]",
+          "textremes": "Mini: 15/17°C",
+          "rain": "Néant"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 70",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "<2"
+        }
+      ]
+    },
+    {
+      "city": "Sidi Kacem",
+      "city_key": "SIDI_KACEM",
+      "horizon_h": 48,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_SIDI_KACEM_48h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 06-12H (Matin)",
+          "tmin": "11/13°C",
+          "tmax": "16 / 18°C",
+          "sky": "S.nuageux à couvert",
+          "vent": "Secteur SW [25 / 40]",
+          "phenomena": "Risque de pluies faibles"
+        },
+        {
+          "label": "Aujourd'hui | 12-24H (Après-midi)",
+          "sky": "S.nuageux à couvert",
+          "vent": "Secteur SW [40 / 60] pouvant atteindre 80",
+          "phenomena": "Pluies/Averses faibles"
+        },
+        {
+          "label": "Demain | 00-12H (Matin)",
+          "tmin": "12/14°C",
+          "tmax": "18 / 20°C",
+          "sky": "Pass. nuag à S.nuageux",
+          "vent": "Secteur SW [40 / 60] pouvant atteindre 75",
+          "phenomena": "Pluies/Averses faibles"
+        },
+        {
+          "label": "Demain | 12-24H (Après Midi)",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "vent": "W devenant SW [40 / 60] pouvant atteindre 75",
+          "phenomena": "Risque de pluies faibles"
+        }
+      ]
+    },
+    {
+      "city": "Sidi Slimane",
+      "city_key": "SIDI_SLIMANE",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_SIDI_SLIMANE_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Mini: 12/14°C",
+          "rain": "2-5"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "W dev SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60]",
+          "textremes": "Mini: 14/16°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [20 / 40] pouvant atteindre 50",
+          "textremes": "Maxi: 19/21°C",
+          "rain": "<2"
+        }
+      ]
+    },
+    {
+      "city": "Tanger",
+      "city_key": "TANGER",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_TANGER_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "SW dev W [50 / 70] pouvant atteindre 90",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "20-30"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "W dev SW [50 / 70] pouvant atteindre 90",
+          "textremes": "Mini: 14/16°C",
+          "rain": "05-10"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "W [50 / 70] pouvant atteindre 90",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "15-20"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "W dev SW [45 / 65] pouvant atteindre 80",
+          "textremes": "Mini: 15/17°C",
+          "rain": "05-10"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "W [45 / 65] pouvant atteindre 80",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "05-10"
+        }
+      ]
+    },
+    {
+      "city": "Temara",
+      "city_key": "TEMARA",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_TEMARA_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 80",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Mini: 14/16°C",
+          "rain": "2-5"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux devenant S.nuageux à couvert",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 75",
+          "textremes": "Maxi: 17/19°C",
+          "rain": "<2"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [40 / 60]",
+          "textremes": "Mini: 15/17°C",
+          "rain": "Néant"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Risque de pluies faibles",
+          "vent": "SW [40 / 60] pouvant atteindre 70",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "<2"
+        }
+      ]
+    },
+    {
+      "city": "Tetouan",
+      "city_key": "TETOUAN",
+      "horizon_h": 72,
+      "issue_date": "2026-01-27",
+      "source_file": "SPECIAL_TETOUAN_72h_20260127.pdf",
+      "issued_label": "mardi 27 janvier 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Pass. nuag à S.nuageux",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "SW dev W [50 / 70] pouvant atteindre 90",
+          "textremes": "Maxi: 16/18°C",
+          "rain": "30-40"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles à modérées",
+          "vent": "W dev SW [50 / 70] pouvant atteindre 90",
+          "textremes": "Mini: 13/15°C",
+          "rain": "20-30"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "W [50 / 70] pouvant atteindre 90",
+          "textremes": "Maxi: 18/20°C",
+          "rain": "10-15"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "W [45 / 65] pouvant atteindre 80",
+          "textremes": "Mini: 14/16°C",
+          "rain": "05-10"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "S.nuageux à couvert",
+          "phenomena": "Pluies/Averses faibles",
+          "vent": "W [45 / 65] pouvant atteindre 80",
+          "textremes": "Maxi: 19/21°C",
+          "rain": "05-10"
+        }
+      ]
+    },
+    {
+      "city": "Al Houceima",
+      "city_key": "AL-HOUCEIMA",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_AL-HOUCEIMA_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 29/31°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 30/32°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 22/24°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 32/34°C"
+        }
+      ]
+    },
+    {
+      "city": "Chefchaouen",
+      "city_key": "CHEFCHAOUEN",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_CHEFCHAOUEN_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "S dev NW [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 35/37°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "E dev W [5 / 15] pouvant atteindre 20",
+          "textremes": "Mini: 17/19°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev SE [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "S dev SE [5 / 20]",
+          "textremes": "Mini: 16/18°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev S [5 / 20]",
+          "textremes": "Maxi: 36/38°C"
+        }
+      ]
+    },
+    {
+      "city": "Kenitra",
+      "city_key": "KENITRA",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_KENITRA_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NE [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 29/31°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Brume possible",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 17/19°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 29/31°C"
+        }
+      ]
+    },
+    {
+      "city": "Khemisset",
+      "city_key": "KHEMISSET",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_KHEMISSET_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NE [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 34/36°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 35/37°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Brume possible",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 35/37°C"
+        }
+      ]
+    },
+    {
+      "city": "Larache",
+      "city_key": "LARACHE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_LARACHE_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "NW dev N [10 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 26/28°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [10 / 20] pouvant atteindre 35",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "NW [5 / 30] pouvant atteindre 40",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev NW [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "NW dev VRB [5 / 20] pouvant atteindre 40",
+          "textremes": "Maxi: 27/29°C"
+        }
+      ]
+    },
+    {
+      "city": "Ouazzane",
+      "city_key": "OUAZZANE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_OUAZZANE_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "S dev NW [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 34/36°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "E dev W [5 / 15] pouvant atteindre 20",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev SE [5 / 20] pouvant atteindre 25",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "S dev SE [5 / 20]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev S [5 / 20]",
+          "textremes": "Maxi: 36/38°C"
+        }
+      ]
+    },
+    {
+      "city": "Rabat",
+      "city_key": "RABAT",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_RABAT_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NE [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 20/22°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Brume possible",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Rabat Sale",
+      "city_key": "RABAT_SALE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_RABAT_SALE_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NE [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 16/18°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Brume possible",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 16/18°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Sidi Slimane",
+      "city_key": "SIDI_SLIMANE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_SIDI_SLIMANE_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 34/36°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev W [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 36/38°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Brume possible",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 36/38°C"
+        }
+      ]
+    },
+    {
+      "city": "Tanger",
+      "city_key": "TANGER",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_TANGER_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "W dev NW [10 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Peu nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev NW [5 / 20] pouvant atteindre 25",
+          "textremes": "Mini: 20/22°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "NW dev SW [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 29/31°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "SW dev W [10 / 20] pouvant atteindre 25",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "NW dev W [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Temara",
+      "city_key": "TEMARA",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_TEMARA_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NE [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 20/22°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Brume possible",
+          "vent": "VRB dev N [5 / 20] pouvant atteindre 30",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "N [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Tetouan",
+      "city_key": "TETOUAN",
+      "horizon_h": 72,
+      "issue_date": "2026-07-14",
+      "source_file": "SPECIAL_TETOUAN_72h_20260714.pdf",
+      "issued_label": "mardi 14 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "E dev W [5 / 20] pouvant atteindre 35",
+          "textremes": "Maxi: 34/36°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux devenant Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "W dev E [5 / 20]",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "E dev W [5 / 20]",
+          "textremes": "Maxi: 34/36°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "W [10 / 20]",
+          "textremes": "Mini: 22/24°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "W [10 / 30]",
+          "textremes": "Maxi: 36/38°C"
+        }
+      ]
+    },
+    {
+      "city": "Al Houceima",
+      "city_key": "AL-HOUCEIMA",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_AL-HOUCEIMA_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [2 / 20]",
+          "textremes": "Maxi: 32/34°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev NE [2 / 15]",
+          "textremes": "Mini: 22/24°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [2 / 20]",
+          "textremes": "Maxi: 32/34°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 15]",
+          "textremes": "Mini: 22/24°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW dev W [2 / 20]",
+          "textremes": "Maxi: 33/35°C"
+        }
+      ]
+    },
+    {
+      "city": "Chefchaouen",
+      "city_key": "CHEFCHAOUEN",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_CHEFCHAOUEN_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "W dev VRB [2 / 15]",
+          "textremes": "Maxi: 36/38°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 20]",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev NW [2 / 15]",
+          "textremes": "Maxi: 38/40°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "W dev SW [2 / 20]",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 15]",
+          "textremes": "Maxi: 38/40°C"
+        }
+      ]
+    },
+    {
+      "city": "Kenitra",
+      "city_key": "KENITRA",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_KENITRA_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [2 / 25]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [2 / 30]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [5 / 30]",
+          "textremes": "Maxi: 29/31°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "SW dev NW [2 / 20]",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW dev SW [2 / 25]",
+          "textremes": "Maxi: 29/31°C"
+        }
+      ]
+    },
+    {
+      "city": "Khemisset",
+      "city_key": "KHEMISSET",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_KHEMISSET_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [5 / 25]",
+          "textremes": "Maxi: 36/38°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [2 / 15]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW [2 / 25]",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 15]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "VRB dev NW [5 / 25]",
+          "textremes": "Maxi: 37/39°C"
+        }
+      ]
+    },
+    {
+      "city": "Larache",
+      "city_key": "LARACHE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_LARACHE_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "NW [2 / 30]",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev NW [2 / 20]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW dev W [5 / 30]",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 20]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW [2 / 30]",
+          "textremes": "Maxi: 27/29°C"
+        }
+      ]
+    },
+    {
+      "city": "Ouazzane",
+      "city_key": "OUAZZANE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_OUAZZANE_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "W dev VRB [2 / 15]",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 20]",
+          "textremes": "Mini: 20/22°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev NW [2 / 15]",
+          "textremes": "Maxi: 38/40°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "W dev SW [2 / 20]",
+          "textremes": "Mini: 20/22°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "VRB [2 / 15]",
+          "textremes": "Maxi: 38/40°C"
+        }
+      ]
+    },
+    {
+      "city": "Rabat",
+      "city_key": "RABAT",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_RABAT_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [2 / 20]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [2 / 25]",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [2 / 25]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "NW [2 / 15]",
+          "textremes": "Mini: 17/19°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "SW dev NW [2 / 20]",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Rabat Sale",
+      "city_key": "RABAT_SALE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_RABAT_SALE_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [2 / 20]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [2 / 25]",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [2 / 25]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "NW [2 / 15]",
+          "textremes": "Mini: 17/19°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "SW dev NW [2 / 20]",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Sidi Slimane",
+      "city_key": "SIDI_SLIMANE",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_SIDI_SLIMANE_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [10 / 30]",
+          "textremes": "Maxi: 36/38°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [2 / 15]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW dev W [5 / 30]",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "SW dev NW [2 / 15]",
+          "textremes": "Mini: 19/21°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW [10 / 30]",
+          "textremes": "Maxi: 37/39°C"
+        }
+      ]
+    },
+    {
+      "city": "Tanger",
+      "city_key": "TANGER",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_TANGER_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "SW [2 / 20]",
+          "textremes": "Maxi: 26/28°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "SW dev W [2 / 15]",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW dev W [2 / 20]",
+          "textremes": "Maxi: 27/29°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "SW dev W [5 / 20]",
+          "textremes": "Mini: 21/23°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "NW dev SW [2 / 20]",
+          "textremes": "Maxi: 27/29°C"
+        }
+      ]
+    },
+    {
+      "city": "Temara",
+      "city_key": "TEMARA",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_TEMARA_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "N dev NW [2 / 20]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "VRB dev N [2 / 25]",
+          "textremes": "Mini: 18/20°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "N dev VRB [2 / 25]",
+          "textremes": "Maxi: 28/30°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "NW [2 / 15]",
+          "textremes": "Mini: 17/19°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "SW dev NW [2 / 20]",
+          "textremes": "Maxi: 28/30°C"
+        }
+      ]
+    },
+    {
+      "city": "Tetouan",
+      "city_key": "TETOUAN",
+      "horizon_h": 72,
+      "issue_date": "2026-07-16",
+      "source_file": "SPECIAL_TETOUAN_72h_20260716.pdf",
+      "issued_label": "jeudi 16 juillet 2026",
+      "periods": [
+        {
+          "label": "Aujourd'hui | 12H-24H",
+          "sky": "Clair à peu nuageux",
+          "phenomena": "Néant",
+          "vent": "W [2 / 25] pouvant atteindre 30",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Demain | 00H-12H",
+          "sky": "S.nuageux à couvert devenant Pass. nuag à S.nuageux",
+          "phenomena": "Néant",
+          "vent": "W [5 / 25]",
+          "textremes": "Mini: 25/27°C"
+        },
+        {
+          "label": "Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "E dev W [2 / 20]",
+          "textremes": "Maxi: 37/39°C"
+        },
+        {
+          "label": "Après-Demain | 00H-12H",
+          "sky": "Pass. nuag à S.nuageux devenant Peu à Pass. nuageux",
+          "phenomena": "Néant",
+          "vent": "W [5 / 25]",
+          "textremes": "Mini: 25/27°C"
+        },
+        {
+          "label": "Après-Demain | 12H-24H",
+          "sky": "Peu à Pass. nuageux devenant S.nuageux à couvert",
+          "phenomena": "Néant",
+          "vent": "W [2 / 20]",
+          "textremes": "Maxi: 37/39°C"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "source_dir": "sources/bulletins",
+  "bulletin_count": 3,
+  "bulletins": [
+    {
+      "source_file": "BMSGeneral_20260127.pdf",
+      "issue_date": "2026-01-27",
+      "bulletin_nr": "27/2026",
+      "bam_nr": "26/2026",
+      "issued_label": "MARDI 27 JANVIER 2026 À 10H56 GMT",
+      "phenomena": [
+        {
+          "type": "Averses et pluies fortes",
+          "vigilance_level": "orange",
+          "groups": [
+            {
+              "intensity": "60 - 95 mm",
+              "provinces": [
+                "Chefchaouen",
+                "Tetouan",
+                "Larache"
+              ],
+              "period": "Du mardi 27/01/2026 à 12:00 au jeudi 29/01/2026 à 00:00"
+            },
+            {
+              "intensity": "40 - 60 mm",
+              "provinces": [
+                "Taounate",
+                "Al Hoceima",
+                "Ouezzane",
+                "Sefrou",
+                "Taza",
+                "Fahs-Anjra",
+                "Tanger-Assilah",
+                "MDiq-Fnideq",
+                "Ifrane"
+              ],
+              "period": "Du mardi 27/01/2026 à 12:00 au jeudi 29/01/2026 à 00:00"
+            }
+          ]
+        },
+        {
+          "type": "Fortes rafales de vent",
+          "vigilance_level": "orange",
+          "groups": [
+            {
+              "intensity": "75-95 km/h",
+              "provinces": [
+                "Chefchaouen",
+                "Berkane",
+                "Fahs-Anjra",
+                "Al Hoceima",
+                "Oujda-Angad",
+                "Nador",
+                "Guercif",
+                "Driouch",
+                "MDiq-Fnideq",
+                "Tetouan",
+                "Taourirt",
+                "Boulemane",
+                "Taza",
+                "Moulay Yacoub",
+                "Tata",
+                "Ouarzazate",
+                "Figuig",
+                "Jerada",
+                "Ouezzane",
+                "Tanger-Assilah",
+                "Taroudant",
+                "Tiznit",
+                "Sidi Slimane",
+                "Sidi Kacem",
+                "Larache",
+                "Taounate",
+                "Tinghir",
+                "Kenitra",
+                "El Hajeb",
+                "Ifrane",
+                "Midelt",
+                "Meknes",
+                "Fes",
+                "Sefrou"
+              ],
+              "period": "Du mardi 27/01/2026 à 12:00 au jeudi 29/01/2026 à 00:00"
+            },
+            {
+              "intensity": "70-80 km/h",
+              "provinces": [
+                "Mohammadia",
+                "Sidi Bennour",
+                "Casablanca",
+                "Benslimane",
+                "Berrechid",
+                "Rabat",
+                "Sale",
+                "Skhirate-Temara",
+                "El Jadida",
+                "Safi",
+                "Nouaceur",
+                "Mediouna"
+              ],
+              "period": "Mardi 27/01/2026 de 12:00 à 18:00"
+            }
+          ]
+        }
+      ],
+      "raw_text": "WOMC01GMMC\nACTUALISATION DU BAM N° : 26/2026\nBULLETIN D'ALERTE MÉTÉOROLOGIQUE\nNR : 27/2026\nÉTABLI LE : MARDI 27 JANVIER 2026 À 10H56 GMT\nI - Type de phénomène : Averses et pluies fortes\n-Niveau de vigilance : orange\n*Provinces concernées\n60 - 95 mm : Chefchaouen, Tetouan et Larache\n40 - 60 mm : Taounate,Al Hoceima, Ouezzane, Sefrou, Taza, Fahs-Anjra,\nTanger-Assilah, MDiq-Fnideq et Ifrane\n-Début et fin du phénomène : Du mardi 27/01/2026 à 12:00 au jeudi 29/01/2026 à 00:00\nII - Type de phénomène : Fortes rafales de vent\n-Niveau de vigilance : orange\n*Provinces concernées\n75-95 km/h : Chefchaouen, Berkane, Fahs-Anjra, Al Hoceima, Oujda-Angad, Nador,\nGuercif, Driouch, MDiq-Fnideq, Tetouan, Taourirt, Boulemane, Taza,\nMoulay Yacoub, Tata, Ouarzazate, Figuig, Jerada, Ouezzane,\nTanger-Assilah, Taroudant, Tiznit, Sidi Slimane, Sidi Kacem, Larache,\nTaounate, Tinghir, Kenitra, El Hajeb, Ifrane, Midelt, Meknes, Fes et\nSefrou\n-Début et fin du phénomène : Du mardi 27/01/2026 à 12:00 au jeudi 29/01/2026 à 00:00\n*Provinces concernées\n70-80 km/h : Mohammadia, Sidi Bennour, Casablanca, Benslimane, Berrechid, Rabat,\nSale, Skhirate-Temara, El Jadida, Safi, Nouaceur et Mediouna\n-Début et fin du phénomène : Mardi 27/01/2026 de 12:00 à 18:00\nPage 1/1"
+    },
+    {
+      "source_file": "BMSGeneral_20260715.pdf",
+      "issue_date": "2026-07-15",
+      "bulletin_nr": "130/2026",
+      "bam_nr": "129/2026",
+      "issued_label": "MERCREDI 15 JUILLET 2026 À 08H08 GMT",
+      "phenomena": [
+        {
+          "type": "vague de chaleur",
+          "vigilance_level": "orange",
+          "groups": [
+            {
+              "intensity": "43/45 °C",
+              "provinces": [
+                "Zagora",
+                "Tata",
+                "Es-Semara",
+                "Assa-Zag",
+                "Boujdour",
+                "Oued Ed-Dahab",
+                "Aousserd"
+              ],
+              "period": "Du mercredi 15/07/2026 au samedi 18/07/2026"
+            },
+            {
+              "intensity": "40/43 °C",
+              "provinces": [
+                "Youssoufia",
+                "Beni Mellal",
+                "Fquih Ben Salah",
+                "Errachidia",
+                "Khenifra",
+                "Boulemane",
+                "Chichaoua",
+                "Guercif",
+                "Taounate",
+                "Taza",
+                "Taroudant",
+                "Tinghir",
+                "Khouribga",
+                "Settat",
+                "El Kelaa des Sraghna",
+                "Marrakech",
+                "Rehamna",
+                "Figuig",
+                "Jerada",
+                "Oujda-Angad",
+                "Taourirt",
+                "Guelmim"
+              ],
+              "period": "Du mercredi 15/07/2026 au samedi 18/07/2026"
+            },
+            {
+              "intensity": "36/40°C",
+              "provinces": [
+                "Ouezzane",
+                "Agadir-Ida-Ou-Tanane",
+                "Chtouka- Ait Baha",
+                "Essaouira",
+                "Berkane",
+                "Driouch",
+                "Nador"
+              ],
+              "period": "Du mercredi 15/07/2026 au samedi 18/07/2026"
+            }
+          ]
+        }
+      ],
+      "raw_text": "WOMC01GMMC\nACTUALISATION DU BAM N° : 129/2026\nBULLETIN D'ALERTE MÉTÉOROLOGIQUE\nNR : 130/2026\nÉTABLI LE : MERCREDI 15 JUILLET 2026 À 08H08 GMT\nI - Type de phénomène : vague de chaleur\n-Niveau de vigilance : orange\n*Provinces concernées\n43/45 °C : Zagora, Tata, Es-Semara, Assa-Zag, Boujdour, Oued Ed-Dahab et\nAousserd.\n40/43 °C : Youssoufia, Beni Mellal, Fquih Ben Salah, Errachidia, Khenifra,\nBoulemane, Chichaoua, Guercif, Taounate, Taza, Taroudant, Tinghir,\nKhouribga, Settat, El Kelaa des Sraghna, Marrakech, Rehamna, Figuig,\nJerada, Oujda-Angad, Taourirt et Guelmim.\n36/40°C : Ouezzane, Agadir-Ida-Ou-Tanane, Chtouka- Ait Baha, Essaouira,\nBerkane, Driouch et Nador.\n-Début et fin du phénomène : Du mercredi 15/07/2026 au samedi 18/07/2026\nPage 1/1"
+    },
+    {
+      "source_file": "BMSGeneral_16072026.pdf",
+      "issue_date": "2026-07-16",
+      "bulletin_nr": "130/2026",
+      "bam_nr": "129/2026",
+      "issued_label": "MERCREDI 15 JUILLET 2026 À 08H08 GMT",
+      "phenomena": [
+        {
+          "type": "vague de chaleur",
+          "vigilance_level": "orange",
+          "groups": [
+            {
+              "intensity": "43/45 °C",
+              "provinces": [
+                "Zagora",
+                "Tata",
+                "Es-Semara",
+                "Assa-Zag",
+                "Boujdour",
+                "Oued Ed-Dahab",
+                "Aousserd"
+              ],
+              "period": "Du mercredi 15/07/2026 au samedi 18/07/2026"
+            },
+            {
+              "intensity": "40/43 °C",
+              "provinces": [
+                "Youssoufia",
+                "Beni Mellal",
+                "Fquih Ben Salah",
+                "Errachidia",
+                "Khenifra",
+                "Boulemane",
+                "Chichaoua",
+                "Guercif",
+                "Taounate",
+                "Taza",
+                "Taroudant",
+                "Tinghir",
+                "Khouribga",
+                "Settat",
+                "El Kelaa des Sraghna",
+                "Marrakech",
+                "Rehamna",
+                "Figuig",
+                "Jerada",
+                "Oujda-Angad",
+                "Taourirt",
+                "Guelmim"
+              ],
+              "period": "Du mercredi 15/07/2026 au samedi 18/07/2026"
+            },
+            {
+              "intensity": "36/40°C",
+              "provinces": [
+                "Ouezzane",
+                "Agadir-Ida-Ou-Tanane",
+                "Chtouka- Ait Baha",
+                "Essaouira",
+                "Berkane",
+                "Driouch",
+                "Nador"
+              ],
+              "period": "Du mercredi 15/07/2026 au samedi 18/07/2026"
+            }
+          ]
+        }
+      ],
+      "raw_text": "WOMC01GMMC\nACTUALISATION DU BAM N° : 129/2026\nBULLETIN D'ALERTE MÉTÉOROLOGIQUE\nNR : 130/2026\nÉTABLI LE : MERCREDI 15 JUILLET 2026 À 08H08 GMT\nI - Type de phénomène : vague de chaleur\n-Niveau de vigilance : orange\n*Provinces concernées\n43/45 °C : Zagora, Tata, Es-Semara, Assa-Zag, Boujdour, Oued Ed-Dahab et\nAousserd.\n40/43 °C : Youssoufia, Beni Mellal, Fquih Ben Salah, Errachidia, Khenifra,\nBoulemane, Chichaoua, Guercif, Taounate, Taza, Taroudant, Tinghir,\nKhouribga, Settat, El Kelaa des Sraghna, Marrakech, Rehamna, Figuig,\nJerada, Oujda-Angad, Taourirt et Guelmim.\n36/40°C : Ouezzane, Agadir-Ida-Ou-Tanane, Chtouka- Ait Baha, Essaouira,\nBerkane, Driouch et Nador.\n-Début et fin du phénomène : Du mercredi 15/07/2026 au samedi 18/07/2026\nPage 1/1"
+    }
+  ]
+}
